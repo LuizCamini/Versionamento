@@ -5,82 +5,82 @@
 ### Linux:
 
 - 1 Criando o ambiente
-´´´shell
+```shell
 python3 -m venv venv
-´´´
+```
 - 2 Atualizando o ambiente coms as bibloptecas dp projeto
-´´´shell
+```shell
 source ./venv/bin/activate
-´´´
+```
 
-´´´shell
+```shell
 pip install -r requirements.txt
-´´´
+```
 
 - 3 Inserindo nova biblioteca
 
-´´´shell
+```shell
 source ./venv/bin/activate
-´´´
+```
 
-´´´shell
+```shell
 pip install <biblioteca>
-´´´
+```
 
-´´´shell
+```shell
 pip freeze > requirements.txt
-´´´
+```
 
 - 4 Ativando Ambiente
-´´´shell
+```shell
 source ./venv/bin/activate
-´´´
+```
 
 - Desativando ambiente
-´´´shell
+```shell
 deactivate
-´´´
+```
 
 ### Windows:
 - 1 Criando o ambiente (utilizando o GIT BASH)
-´´´shell
+```shell
 pwd (Identifica o caminho completo do diretorio)
-´´´
+```
 
-´´´shell
+```shell
 python3 -m venv < caminho completo do diretorio > /venv
-´´´
+```
 
 - 2 Atualizando o ambiente com as bibliotecas do projeto
-´´´shell
+```shell
 source ./venv/Scripts/activate
-´´´
+```
 
-´´´shell
+```shell
 pip install -r requirements.txt
-´´´
+```
 
 - 3 Inserindo nova biblioteca
-´´´shell
+```shell
 source ./venv/Scripts/activate
-´´´
+```
 
-´´´shell
+```shell
 pip install < biblioteca >
-´´´
+```
 
-´´´shell
+```shell
 pip freeze > requirements.txt
-´´´
+```
 
 - 4 Ativando o ambiente
-´´´shell
+```shell
 source ./venv/Scripts/activate
-´´´
+```
 
 - 5 Desativando ambiente
-´´´shell
+```shell
 deactivate
-´´´
+```
 
 
