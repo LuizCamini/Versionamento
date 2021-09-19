@@ -1,28 +1,5 @@
 # Versionamento e Deploy
 
-### Comandos PIP (Gerenciamento de pacotes para Python)
-
-#### 1 - Instalar Pacote
-```shell
-pip install <nome do pacote>
-```
-
-#### 2 - Mostra todos os pacotes instalados
-```shell
-pip freeze > requeriments.txt
-```
-
-#### 3 - Instala todos os pacotes salvos em requirements.txt
-```shell
-pip install -r requirements.txt
-```
-
-#### 4 - URL principal repositorio de software para linguagem Python
-
-<https://pypi.org/>
-
-
-
 ## Ambiente - Versionamento de Deploy
 
 ### Linux:
@@ -31,7 +8,7 @@ pip install -r requirements.txt
 ```shell
 python3 -m venv venv
 ```
-#### 2 - Atualizando o ambiente coms as bibloptecas dp projeto
+#### 2 - Atualizando o ambiente com as bibliotecas do projeto
 ```shell
 source ./venv/bin/activate
 ```
@@ -106,5 +83,27 @@ source ./venv/Scripts/activate
 ```shell
 deactivate
 ```
+
+
+### Comandos PIP (Gerenciamento de pacotes para Python)
+
+#### 1 - Instalar Pacote
+```shell
+pip install <nome do pacote>
+```
+
+#### 2 - Mostra todos os pacotes instalados
+```shell
+pip freeze > requeriments.txt
+```
+
+#### 3 - Instala todos os pacotes salvos em requirements.txt
+```shell
+pip install -r requirements.txt
+```
+
+#### 4 - URL principal repositorio de software para linguagem Python
+
+<https://pypi.org/>
 
 
