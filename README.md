@@ -17,6 +17,12 @@ pip freeze > requeriments.txt
 pip install -r requirements.txt
 ```
 
+#### 4 - URL principal repositorio de software para linguagem Python
+
+<https://pypi.org/>
+
+
+
 ## Ambiente - Versionamento de Deploy
 
 ### Linux:
