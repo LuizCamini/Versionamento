@@ -1,4 +1,21 @@
-# Versionamento
+# Versionamento e Deploy
+
+### Comandos PIP (Gerenciamento de pacotes para Python)
+
+#### 1 - Instalar Pacote
+```shell
+pip install <nome do pacote>
+```
+
+#### 2 - Mostra todos os pacotes instalados
+```shell
+pip freeze > requeriments.txt
+```
+
+#### 3 - Instala todos os pacotes salvos em requirements.txt
+```shell
+pip install -r requirements.txt
+```
 
 ## Ambiente - Versionamento de Deploy
 
